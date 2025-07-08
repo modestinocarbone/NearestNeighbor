@@ -6,7 +6,7 @@ This project contains a simple 100-line implementation of a 1-NN (1-Nearest Neig
 
 - `nn.c` - Classifier source code 
 - `dataset.txt` – CSV file containing a small training set for testing
-- `run.sh` – Script to compile and run the project
+- `Makefile` – Script to compile the project
 
 ## Dataset Format
 
@@ -23,7 +23,7 @@ Each row must contain 5 numeric values and a class label, separated by commas:
 Make sure to have `gcc` installed, then run:
 
 ```bash
-bash run.sh
+make nn
 ```
 Or compile and run manually:
 ```
